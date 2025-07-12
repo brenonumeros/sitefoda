@@ -1,0 +1,27 @@
+{
+  "name": "maria-clara-interactive-gift",
+  "version": "1.0.0",
+  "description": "Interactive gift system for Maria Clara with music search and response collection",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required for static site'",
+    "start": "vercel dev"
+  },
+  "keywords": [
+    "interactive",
+    "gift",
+    "music",
+    "playlist",
+    "vercel"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "resend": "^2.1.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
