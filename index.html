@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Presente Interativo para Maria Clara</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Maria Clara, bora montar seu Top 5?</h1>
+            <button id="startBtn">Começar</button>
+            <button id="darkModeToggle">🌙</button>
+        </header>
+
+        <main id="mainContent" class="hidden">
+            <section id="top5">
+                <h2>Top 5 Filmes 🎬</h2>
+                <ul class="ranked-list" id="moviesList"></ul>
+                <h2>Top 5 Livros 📚</h2>
+                <ul class="ranked-list" id="booksList"></ul>
+                <h2>Top 5 Séries 📺</h2>
+                <ul class="ranked-list" id="showsList"></ul>
+            </section>
+
+            <section id="recommendation">
+                <h2>Recomendação Surpresa</h2>
+                <textarea id="surpriseRecommendation" placeholder="Indique qualquer coisa..."></textarea>
+            </section>
+
+            <section id="playlist">
+                <h2>Sua Playlist</h2>
+                <input type="text" id="musicSearch" placeholder="Buscar músicas..." />
+                <div id="musicResults"></div>
+                <div id="playlistContainer"></div>
+                <button id="finalizeBtn">Finalizar</button>
+            </section>
+        </main>
+
+        <footer>
+            <p>Designed with way too much admiration and some CSS 💖</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
